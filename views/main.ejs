@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+</head>
+<body>
+    <!--<form action="/AAAAA" method="post">
+        <input type="text" name="Hello">
+        <button type="submit">send</button>
+    </form> -->
+
+    <script>
+        const quest = async () => {
+            const answer = await axios.post('/AAAAA', { Hello: 'Привіт'});
+        }
+        quest();
+    </script>
+
+
+</body>
+
+
+
+</html>
